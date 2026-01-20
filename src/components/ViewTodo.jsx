@@ -39,7 +39,7 @@ const ViewTodo = ({ todos, loading, error, onDelete, onEdit }) => {
                 <td>
                   <button
                     onClick={() => handleEditClick(item)}
-                    className="btn edit"
+                    className="btn edit btn-warning"
                   >
                     Edit
                   </button>

@@ -20,7 +20,7 @@ const Todo = ({ todo, setTodo, editId, loading, error, handleSubmit }) => {
       {error && <div className="todo-error">{error}</div>}
 
       <div className="todo-field">
-        <label className="todo-label">Todo</label>
+        <label className="todo-label">Todo :</label>
         <input
           type="text"
           className="todo-input"

@@ -4,6 +4,7 @@
   background: #f3f4f6;
   padding: 40px 16px;
   box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Header */
@@ -17,7 +18,7 @@
   font-size: 28px;
   font-weight: 600;
   color: #1f2937;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 /* Navigation */
@@ -37,12 +38,12 @@
 }
 
 .nav-link.primary {
-  background: #2563eb;
+  background: #0468BF;
   color: #ffffff;
 }
 
 .nav-link.primary:hover {
-  background: #1d4ed8;
+  background: #04B2D9;
 }
 
 .nav-link.dark {
@@ -51,7 +52,7 @@
 }
 
 .nav-link.dark:hover {
-  background: #000000;
+  background: #3d3c4a;
 }
 
 /* Main content */

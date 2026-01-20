@@ -52,21 +52,21 @@
 }
 
 .btn.edit {
-  background: #eab308;
+  background: #F2CB05;
   color: #1f2937;
 }
 
 .btn.edit:hover {
-  background: #ca8a04;
+  background: #EAF205;
 }
 
 .btn.delete {
-  background: #dc2626;
+  background: #BF1F1F;
   color: #ffffff;
 }
 
 .btn.delete:hover {
-  background: #b91c1c;
+  background: #F23827;
 }
 
 .btn:disabled {
