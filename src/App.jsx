@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Routes, Route, Link } from "react-router-dom";
 import { createTodo, getAllTodo, deleteTodo, updateTodo } from "./features/todo/todoSlice";
-import Todo from "./components/Todo";
-import ViewTodo from "./components/Viewtodo";
+import Todo from "./components/Todo.jsx";
+import ViewTodo from "./components/Viewtodo.jsx";
 import "./App.css";
 
 const App = () => {
