@@ -1,0 +1,69 @@
+/* Page background */
+.app {
+  min-height: 100vh;
+  background: #f3f4f6;
+  padding: 40px 16px;
+  box-sizing: border-box;
+}
+
+/* Header */
+.app-header {
+  max-width: 900px;
+  margin: 0 auto 32px;
+  text-align: center;
+}
+
+.app-header h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.nav-link.primary {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.nav-link.primary:hover {
+  background: #1d4ed8;
+}
+
+.nav-link.dark {
+  background: #111827;
+  color: #ffffff;
+}
+
+.nav-link.dark:hover {
+  background: #000000;
+}
+
+/* Main content */
+.app-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Card container */
+.card {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}

@@ -1,0 +1,89 @@
+.todo-table-wrapper {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.todo-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.todo-table thead {
+  background: #1f2937;
+}
+
+.todo-table th {
+  padding: 14px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.todo-table td {
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+  color: #374151;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.todo-table tr:hover td {
+  background: #f9fafb;
+}
+
+.todo-title {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+  margin: 0 4px;
+  transition: all 0.2s ease;
+}
+
+.btn.edit {
+  background: #eab308;
+  color: #1f2937;
+}
+
+.btn.edit:hover {
+  background: #ca8a04;
+}
+
+.btn.delete {
+  background: #dc2626;
+  color: #ffffff;
+}
+
+.btn.delete:hover {
+  background: #b91c1c;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.status {
+  padding: 16px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.status.loading {
+  color: #2563eb;
+}
+
+.status.empty {
+  color: #6b7280;
+}
